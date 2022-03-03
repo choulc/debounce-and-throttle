@@ -1,0 +1,10 @@
+.counter-container{
+    height: 100px;
+    width:80vw;
+    background-color: rgb(200,200,200);
+    margin:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+}
