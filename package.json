@@ -1,5 +1,6 @@
 {
   "name": "debounce-and-throttle",
+  "homepage": "https://choulc.github.io/debounce-and-throttle/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

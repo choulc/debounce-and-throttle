@@ -8,7 +8,7 @@ import Home from './components/Home';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter basename='/debounce-and-throttle'>
+    <BrowserRouter basename={'/debounce-and-throttle'}>
       <Routes>
         <Route path="/" component={<App />}>
           <Route index element={<Home />} />
