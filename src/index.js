@@ -3,10 +3,19 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './components/Home';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter basename='/debounce-and-throttle'>
+      <Routes>
+        <Route path="/" component={<App />}>
+          <Route index element={<Home />} />
+        </Route>
+        <Route path="*" element={<App />} />
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
